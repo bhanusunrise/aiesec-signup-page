@@ -1,9 +1,15 @@
+/* Variable List */
+
 :root{
     --gv-color : #F85A40;
     --gta-color : #0CB9C1;
     --gte-color : #FFC845;
+    --aiesec-tet-color: #52565E;
+    --aiesec-text-project-color: #33333a;
+    --opportunity-button-text: aliceblue;
 }
 
+/*AIESEC logo*/
 
 #aiesec-logo {
     background-image: url("images/aiesec.png");
@@ -12,34 +18,48 @@
     background-repeat: no-repeat;
 }
 
+/* Paragraph Description*/
+
 #aiesec-text{
-    color: #52565E;
+    color: var(--aiesec-tet-color);
     font-size: 20px;
 }
 
+/* Header */
+
 #aiesec-text-project{
-    color: #33333a;
+    color: var(--aiesec-text-project-color);
 }
+
+/*  Content area*/
 
 #content-area{
     padding-left: 110px ;
     padding-right: 110px ;
 }
 
+/*  Volunteer button*/
+
 #gv-btn{
     background-color: var(--gv-color);
 }
+
+/*  Talent Button*/
 
 #gta-btn{
     background-color: var(--gta-color);
 }
 
+/*  Teacher Button*/
+
 #gte-btn{
     background-color: var(--gte-color);
 }
 
+/* All buttons*/
+
 .opportunity-button{
-    color:aliceblue;
+    color: var(--opportunity-button-text);
     padding: 15px;
     border :none;
     border-radius: 5px;
@@ -47,6 +67,8 @@
     width: 200px;
     margin-right:20px;
 }
+
+/*Content Centering*/
 
 html,
 body {
