@@ -1,0 +1,60 @@
+:root{
+    --gv-color : #F85A40;
+    --gta-color : #0CB9C1;
+    --gte-color : #FFC845;
+}
+
+
+#aiesec-logo {
+    background-image: url("images/aiesec.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#aiesec-text{
+    color: #52565E;
+    font-size: 20px;
+}
+
+#aiesec-text-project{
+    color: #33333a;
+}
+
+#content-area{
+    padding-left: 110px ;
+    padding-right: 110px ;
+}
+
+#gv-btn{
+    background-color: var(--gv-color);
+}
+
+#gta-btn{
+    background-color: var(--gta-color);
+}
+
+#gte-btn{
+    background-color: var(--gte-color);
+}
+
+.opportunity-button{
+    color:aliceblue;
+    padding: 15px;
+    border :none;
+    border-radius: 5px;
+    font-weight: 800;
+    width: 200px;
+    margin-right:20px;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding-left: 15vh;
+    padding-right: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
